@@ -1,0 +1,81 @@
+Html Tags:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+        <img src="download.jpg" alt="Technology Image">
+    </div>
+    <div class="text">
+        <h1>30000+ Best Technology & Computer Images</h1>
+        <p>Pixabay</p>
+        <a href="https://pixabay.com/images/search/technology">
+          https://pixabay.com/images/search/technology</a>
+        <p>30,000+ latest technology images & stock photos. 
+          Download royalty free technology pictures in HD to 
+          4K quality as png, wallpapers, backgrounds & more.</p>
+    </div>
+ </div>
+
+</body>
+</html>
+==================================================================
+==================================================================
+CSS tags:
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    padding: 20px;
+    flex: 1;
+}
+
+.text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.text p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.text a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
